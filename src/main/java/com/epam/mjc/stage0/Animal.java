@@ -15,7 +15,7 @@ public class Animal {
     public String getDescription(){
 
 
-        if (hasFur == true){
+        if (hasFur){
         return "This animal is mostly "+color+". It has "+ numberOfPaws+" paws and a fur.";
         }
         return "This animal is mostly "+color+". It has "+numberOfPaws+" paws and no fur.";
